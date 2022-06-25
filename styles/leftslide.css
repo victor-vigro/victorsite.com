@@ -1,0 +1,38 @@
+.leftslide {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 55px;
+  width: 72px;
+  background-color: rgb(255, 255, 255);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(236, 236, 236);
+  z-index: 200px;
+}
+
+.slide-icon {
+  background-color: rgb(253, 253, 253);
+  height: 96px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide-icon:hover {
+  background-color: rgb(240, 72, 72);
+  color: white;
+  cursor: pointer;
+}
+
+.slide-icon img {
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.slide-icon div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}

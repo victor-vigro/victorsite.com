@@ -1,0 +1,87 @@
+.mygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .mygrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 999) {
+  .mygrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mygrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1199) {
+  .mygrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mygrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.thumbnail-rows {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.time {
+  position: absolute;
+  right: 8px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.thumbnails {
+  width: 100%;
+  display: block;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.P1 {
+  width: 40px;
+  border-radius: 25px;
+}
+
+.Caption1 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.caption3,
+.caption2 {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.caption3 {
+  margin-top: 6px;
+}
